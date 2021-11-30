@@ -11,7 +11,7 @@ const getFactors = (number) => {
     return [factorsCount, factors] // Returning more than 1 value
 }
 
-const getInteger = (ask) => Math.abs(parseInt(prompt(ask))) 
+const getInteger = (ask) => Math.abs(parseInt(prompt(ask)));
 
 const checkRounded = (num) => {
     return (num === Math.round(num))
